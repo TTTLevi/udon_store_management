@@ -1,0 +1,71 @@
+name: do_an_ck
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.2.1
+  flutter_native_splash: ^2.4.4
+  get: ^4.7.2
+  iconsax: ^0.0.8
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  intl: ^0.20.2
+  flutter_slidable: ^3.1.2
+  shared_preferences: ^2.5.3
+  image_picker: ^1.1.2
+  cloudinary_public: ^0.23.1
+  pdf: ^3.10.8      
+  path_provider: ^2.1.4  
+  open_file: ^3.3.2   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_native_splash:
+  color: "#dda520"
+  image: "assets/images/logo.png"
+  android: true
+  ios: false
+  web: false
+  fullscreen: true
+  android_12:
+    color: "#dda520"
+    image: "assets/images/logo.png"
+    fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    # - family: Poppins
+    #   fonts:
+    #     - asset: assets/fonts/Poppins-Light.ttf
+    #       weight: 300
+    #     - asset: assets/fonts/Poppins-Regular.ttf
+    #       weight: 400
+    #     - asset: assets/fonts/Poppins-Italic.ttf
+    #       style: italic
+    #     - asset: assets/fonts/Poppins-Medium.ttf
+    #       weight: 500
+    #     - asset: assets/fonts/Poppins-MediumItalic.ttf
+    #       weight: 500
+    #       style: italic
+    #     - asset: assets/fonts/Poppins-SemiBold.ttf
+    #       weight: 600
+    #     - asset: assets/fonts/Poppins-Bold.ttf
+    #       weight: 800
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
